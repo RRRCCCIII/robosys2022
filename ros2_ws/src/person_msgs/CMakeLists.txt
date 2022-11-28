@@ -33,6 +33,7 @@ if(BUILD_TESTING)
   find_package(rosidl_default_generators REQUIRED)
   rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/Person.msg"
+    "srv/Query.srv"
   )
 endif()
 
