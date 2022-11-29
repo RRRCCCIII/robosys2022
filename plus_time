@@ -7,4 +7,9 @@ import datetime
 
 dt = datetime.datetime.now()
 
-print(dt)
+st = 0
+
+st = (dt.month) + (dt.day) + (dt.hour) + (dt.minute)
+
+print(st)
+
