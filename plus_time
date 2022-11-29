@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Ryuji Hirano
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+import datetime
+
+dt = datetime.datetime.now()
+
+print(dt)
