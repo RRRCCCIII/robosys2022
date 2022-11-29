@@ -11,5 +11,9 @@ st = 0
 
 st = (dt.month) + (dt.day) + (dt.hour) + (dt.minute)
 
-print(st)
+ist = input("{}はいくつですか?".format(st))
 
+if ist == st:
+    print("正解")
+else:
+    print("不正解　もう一回")
