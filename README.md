@@ -12,11 +12,13 @@
 現在時刻を取得し、月,日,時間,分を足した数を2進数で表せるか問題を出し正誤判定を行うコマンド  
 
 ## インストール方法
-1. リポジトリをクローン  
-$ git clone https://github.com/RRRCCCIII/robosys2022.git
+1. リポジトリをクローン
+  
+'$ git clone https://github.com/RRRCCCIII/robosys2022.git'
 
-2. ディレクトリをクローンしたリポジトリに移動  
-$ cd ./robosys2022
+2. ディレクトリをクローンしたリポジトリに移動
+  
+'$ cd ./robosys2022'
 
 3. コマンドを実行  
 
