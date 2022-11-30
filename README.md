@@ -13,12 +13,16 @@
 
 ## インストール方法
 1. リポジトリをクローン
-  
-'$ git clone https://github.com/RRRCCCIII/robosys2022.git'
+
+'''bash  
+$ git clone https://github.com/RRRCCCIII/robosys2022.git
+'''
 
 2. ディレクトリをクローンしたリポジトリに移動
-  
-'$ cd ./robosys2022'
+
+'''bash
+$ cd ./robosys2022
+'''
 
 3. コマンドを実行  
 
