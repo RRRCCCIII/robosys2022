@@ -1,0 +1,24 @@
+[1.154s] Invoking command in '/home/ryujihirano/robosys2022/ros2_ws/src/mypkg': PYTHONPATH=/home/ryujihirano/robosys2022/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryujihirano/robosys2022/ros2_ws/build/mypkg/build install --prefix /home/ryujihirano/robosys2022/ros2_ws/install/mypkg --record /home/ryujihirano/robosys2022/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[1.508s] running egg_info
+[1.508s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.513s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.515s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.517s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.518s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.564s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.566s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.566s] running build
+[1.566s] running build_py
+[1.567s] running install
+[1.568s] running install_lib
+[1.571s] running install_data
+[1.573s] copying package.xml -> /home/ryujihirano/robosys2022/ros2_ws/install/mypkg/share/mypkg
+[1.574s] copying launch/talk_listen.launch.py -> /home/ryujihirano/robosys2022/ros2_ws/install/mypkg/share/mypkg
+[1.575s] running install_egg_info
+[1.577s] removing '/home/ryujihirano/robosys2022/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.620s] Copying ../../build/mypkg/mypkg.egg-info to /home/ryujihirano/robosys2022/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.635s] running install_scripts
+[1.658s] Installing listener script to /home/ryujihirano/robosys2022/ros2_ws/install/mypkg/lib/mypkg
+[1.659s] Installing talker script to /home/ryujihirano/robosys2022/ros2_ws/install/mypkg/lib/mypkg
+[1.660s] writing list of installed files to '/home/ryujihirano/robosys2022/ros2_ws/build/mypkg/install.log'
+[1.678s] Invoked command in '/home/ryujihirano/robosys2022/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ryujihirano/robosys2022/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryujihirano/robosys2022/ros2_ws/build/mypkg/build install --prefix /home/ryujihirano/robosys2022/ros2_ws/install/mypkg --record /home/ryujihirano/robosys2022/ros2_ws/build/mypkg/install.log --single-version-externally-managed
