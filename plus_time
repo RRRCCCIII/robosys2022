@@ -11,9 +11,11 @@ st = 0
 
 st = (dt.month) + (dt.day) + (dt.hour) + (dt.minute)
 
-ist = input("{}はいくつですか?".format(st))
+st2 = bin(st)
 
-if ist == st:
+ist = input("{}は2進数で?".format(st))
+
+if ist == (st2[2:]):
     print("正解")
 else:
-    print("不正解　もう一回")
+    print("不正解　正解は{}でした".format((st2)[2:]))
