@@ -13,8 +13,10 @@ res=0
 out=$(seq 5 | ./plus_stdin)
 [ "${out}" = 15 ] || ng ${LINENO}
 
-quiz = $(st2[2:] | ./plus_time)
+
+quiz= $(st2[2:] | ./plus_time)
 [ "${quiz}" = "正解" ] || ng ${LINENO}
+
 
 [ "$res" = 0 ] && echo OK
 exit $res
