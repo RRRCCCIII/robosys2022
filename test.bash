@@ -14,7 +14,7 @@ out=$(seq 5 | ./plus_stdin)
 [ "${out}" = 15 ] || ng ${LINENO}
 
 
-out=$(input(st2[2:]) | ./plus_time)
+out=$(st2[2:] | ./plus_time)
 [ "${out}" = 正解 ] || ng ${LINENO}
 
 
