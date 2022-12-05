@@ -12,9 +12,6 @@ res=0
 # I/O TEST
 out=$(seq 5 | ./plus_stdin)
 [ "${out}" = 15 ] || ng ${LINENO}
-   　
-[ "$res" = 0 ] && echo OK
-exit $res
 
 quiz = $(st2[2:] | ./plus_time)
 [ "${out}" = "正解" ] || ng ${LINENO}
